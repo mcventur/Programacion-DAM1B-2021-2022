@@ -1,0 +1,2 @@
+Estadística Luz Solar
+
