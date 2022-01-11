@@ -1,0 +1,78 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-font-family: 'ubuntu';
+	-fx-font-size: 18px;
+	
+}
+#label {
+	-fx-background-color:  #ECEAE0;
+	-fx-font-size: 60px;
+	
+}
+
+#lbltexto {
+	-fx-background-color:  transparent;
+	-fx-font-size: 60px;
+	-fx-text-fill:  #Da4453;
+	
+}
+#pnlImagen {
+	-fx-background-image: url("img/claus02.png");	
+	-fx-border-color: #63AA9C;
+	-fx-border-width: 3px;
+}
+
+.button {
+	-fx-background-color: #63AA9C ;
+	-fx-font-size: 16px;
+	-fx-pref-width: 180px;
+}
+
+#buttonHelp {
+	-fx-background-color: #B9D050;
+	-fx-font-size: 25px;
+	-fx-pref-width: 60px;
+	-fx-border-color: #7d242d;
+	-fx-border-width: 3px;
+	-fx-text-fill:  #631533;
+	-fx-font-weight: bold;
+	-fx-border-radius: 3px;
+	 
+}
+#buttonHelp:hover {
+    -fx-background-color: #Da4453;
+}
+
+
+#areatexto {
+	 
+	-fx-font-size: 14px;
+	-fx-font-family: "monospace";
+	-fx-border-color: #63AA9C;
+	-fx-border-width: 3px;
+}
+
+.dialog-pane {
+    -fx-background-color: #E0FFFF;
+}
+
+.dialog-pane .button{
+   -fx-background-color:transparent;
+   -fx-text-fill:#63AA9C;
+   -fx-font-weight: bold;
+   -fx-wrap-text: true;
+   -fx-border-color:#63AA9C;
+   -fx-border-width:2px;
+   
+ }
+
+.dialog-pane > .button-bar > .container {
+  
+}
+
+.dialog-pane .header-panel .label {
+    
+}
+
+
+

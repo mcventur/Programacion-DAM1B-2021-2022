@@ -1,0 +1,128 @@
+BlueJ run started: Sun Dec 19 20:19:32 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Detected language "spanish" based on iso639-2 code "spa"
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible AL
+1639941577551: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: userhome\bluej\import-cache.xml (El sistema no puede encontrar el archivo especificado)
+====
+
+====
+BlueJ run started: Mon Dec 20 11:40:02 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce
+1639996804034: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Fri Dec 31 13:07:55 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce
+1640952476342: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640952674838: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640952745296: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640953555523: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640953610026: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640953631479: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Fri Dec 31 13:33:04 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce
+1640953985604: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640954054058: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640954164820: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+Error or exception for source not in project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce\Scanner.java, line 939: java.util.InputMismatchException:
+null
+Error or exception for source not in project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce\Scanner.java, line 1594: java.util.InputMismatchException:
+null (in java.util.Scanner)
+Error or exception for source not in project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce\Scanner.java, line 2258: java.util.InputMismatchException:
+null (in java.util.Scanner)
+Error or exception for source not in project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce\Scanner.java, line 2212: java.util.InputMismatchException:
+null (in java.util.Scanner)
+1640954257445: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640954384713: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640954415325: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640954600960: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1640954717129: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Mon Jan 10 14:44:37 CET 2022
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce
+1641822278945: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.

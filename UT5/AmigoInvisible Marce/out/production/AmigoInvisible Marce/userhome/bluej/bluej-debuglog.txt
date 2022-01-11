@@ -1,0 +1,33 @@
+BlueJ run started: Sun Dec 19 20:19:32 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Detected language "spanish" based on iso639-2 code "spa"
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible AL
+1639941577551: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: userhome\bluej\import-cache.xml (El sistema no puede encontrar el archivo especificado)
+====
+
+====
+BlueJ run started: Mon Dec 20 11:40:02 CET 2021
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\El amigo invisible (EJER Antes Navidad)\AmigoInvisible Marce
+1639996804034: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
