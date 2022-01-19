@@ -1,0 +1,90 @@
+BlueJ run started: Wed Jan 12 11:08:32 CET 2022
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Detected language "spanish" based on iso639-2 code "spa"
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\UT5 Práctica\Soluciones ejercicios adicionales UT5\Proyecto Array 2D Marce
+1641982117927: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: userhome\bluej\import-cache.xml (El sistema no puede encontrar el archivo especificado)
+====
+
+====
+BlueJ run started: Wed Jan 12 11:09:54 CET 2022
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\UT5 Práctica\Soluciones ejercicios adicionales UT5\Proyecto Array 2D Marce
+1641982194965: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Jan 12 11:15:19 CET 2022
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\UT5 Práctica\Soluciones ejercicios adicionales UT5\Proyecto Array 2D Marce
+1641982520334: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Jan 12 11:16:56 CET 2022
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\UT5 Práctica\Soluciones ejercicios adicionales UT5\Proyecto Array 2D Marce
+1641982616888: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+====
+
+====
+BlueJ run started: Wed Jan 12 11:19:48 CET 2022
+BlueJ version 5.0.2
+Java version 11.0.10
+JavaFX version 11.0.2+1
+Virtual machine: OpenJDK 64-Bit Server VM 11.0.10+9 (AdoptOpenJDK)
+Running on: Windows 10 10.0 (amd64)
+Java Home: C:\Program Files\BlueJ\jdk
+----
+Internal error: Unable to load frame labels file: C:\Program Files\BlueJ\lib\spanish\frame-labels
+Internal error: Update stats failed, HTTP response code: 301
+Opening project: D:\Marce\Documents\masanz\2021-22\ps20\PROG\MATERIALES\2021-22\UTs\UT5\UT5 Práctica\Soluciones ejercicios adicionales UT5\Proyecto Array 2D Marce
+1641982789626: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1641983348565: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1641983665508: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
