@@ -11,6 +11,7 @@ import java.util.Random;
 
 public class Secuencia
 {
+    public static final int CANTALEATORIOS = 20;
     private ArrayList<Integer> lista;
 
     /**
@@ -19,13 +20,13 @@ public class Secuencia
      */        
     public Secuencia(ArrayList<Integer> otra)
     {
-        lista = new ArrayList<>();
-        if(otra!=null){
-            lista.addAll(otra);
-            Collections.sort(lista);
+        if(otra==null){
+            throw new IllegalArgumentException("Lista vacía");
         }
         else{
-            throw new IllegalArgumentException("Colección vacía");
+            lista=new ArrayList<>();
+            lista.addAll(otra);
+            Collections.sort(lista);
         }
     }
 
@@ -50,14 +51,16 @@ public class Secuencia
      */
     public ArrayList<Integer> fusionarCon(ArrayList<Integer> otra)
     {
-        if(otra!=null){
-            otra.addAll(lista);
-            Collections.sort(otra);
+        if(otra==null){
+            throw new IllegalArgumentException("Lista vacía");
         }
         else{
-            throw new IllegalArgumentException("Colección vacía");
+            ArrayList<Integer> retorno=new ArrayList<>();
+            retorno=getSecuencia();
+            retorno.addAll(otra);
+            Collections.sort(retorno);
+            return retorno;
         }
-        return otra;
     }
 
  
@@ -68,10 +71,30 @@ public class Secuencia
      */
     public  ArrayList<Integer> interseccionCon( ArrayList<Integer> otra)
     {
-       otra.retainAll(lista);//Borramos los elementos de otra que NO estén en lista
-       otra=eliminarDuplicados(otra);//Eliminamos duplicados con nuestra función
-       Collections.sort(otra);//Ordenamos
-       return otra;
+        if(otra==null){
+            throw new IllegalArgumentException("Lista vacía");
+        }
+        else {
+            //Hacemos la intersección de otra y de lista, quedando la misma en otra
+            otra.retainAll(lista);
+            //eliminamos duplicados, almacenando el resultado en interseccion
+            ArrayList<Integer> interseccion=eliminarDuplicados(otra);
+            //ordenamos
+            Collections.sort(interseccion);
+            return interseccion;
+        }
+    }
+
+    public  ArrayList<Integer> interseccionConV2( ArrayList<Integer> otra)
+    {
+        if (otra == null)   {
+            throw new IllegalArgumentException("Colección nula");
+        }
+        ArrayList<Integer> interseccion = new ArrayList<>();
+        interseccion.addAll(lista);
+        interseccion.retainAll(otra);
+        return eliminarDuplicados(interseccion);
+
     }
 
     /**
@@ -80,14 +103,16 @@ public class Secuencia
      */
     private ArrayList<Integer> eliminarDuplicados(ArrayList<Integer> lista)
     {
-        HashSet<Integer> sinDuplicados=new HashSet<>();//Declaramos un HashSet vacío
-        sinDuplicados.addAll(lista);//Añadimos todos los elementos de lista en el HashSet. Con esto ya evitamos duplicados
-        lista.clear();//Vaciamos la lista
-        lista.addAll(sinDuplicados);//Volvemos a meter todos los elementos en el ArrayList lista, ya sin duplicados
-        return lista;
+        //Declaramos nuestro HashSet, que nos sirve para eliminar duplicados
+        HashSet<Integer> hs=new HashSet<>();
+        //Al copiar todos los elementos de lista a al Set hs evitamos los duplicados
+        hs.addAll(lista);
+        //Pasamos todos los elementos de hs a la lista de retorno
+        //Declaramos la lista sin duplicados para el retorno y le metemos el conjunto ya en el constructor
+        ArrayList<Integer> sinDuplicados=new ArrayList<>(hs);
+        return sinDuplicados;
     }
 
-  
 
     /**
      * Representación textual de la secuencia guardada
@@ -99,40 +124,38 @@ public class Secuencia
     }
 
     public static void main(String[] args) {
-        //Creamos un ArrayList para almacenar las listas inicial y la de retorno
-        ArrayList<Integer> al1=generarListaAleatorios();
-        ArrayList<Integer> resultados=generarListaAleatorios();
+        ArrayList<Integer> l1=listaAleatoria(10);
 
+        Secuencia sec=new Secuencia(l1);
+        System.out.println("La secuencia es: ");
+        System.out.println(sec);
 
-        Secuencia sec=new Secuencia(al1);
-        System.out.println("Nuestra secuencia es: " + sec.toString());
+        //Generamos otra lista aleatoria. APROVECHAMOS LA VARIABLE l1!!!
+        l1=listaAleatoria(10);
+        System.out.println("En la lista nueva hay lo siguiente: ");
+        System.out.println(l1);
 
-        //Creamos otro ArrayList. Aprovechamos la variable al1
-        al1=generarListaAleatorios();
-        System.out.println("La segunda lista es: " + al1.toString());
+        //Fusionamos ambas listas
+        System.out.println("La unión queda: ");
+        System.out.println(sec.fusionarCon(l1));
 
-        //Unión y ordenación
-        System.out.println("La fusión es: ");
-        resultados=sec.fusionarCon(al1);
-        System.out.println(resultados.toString());
-
-        //Cruce y ordenación
-        System.out.println("La intersección es: ");
-        resultados=sec.interseccionCon(al1);
-        System.out.println(resultados.toString());
+        //Intersección
+        System.out.println("La intersección queda: ");
+        System.out.println(sec.interseccionCon(l1));
     }
 
     /**
-     * Añadido al proyecto base, para usar en el main para testeo
-     * @return ArrayList de 10 aleatorios entre 1 y 15
+     * Genera listas con numeros aleatorios
+     * @param cuantos la cantidad de numeros a generar
+     * @return un ArrayList con numeros aleatorios
      */
-    private static ArrayList<Integer> generarListaAleatorios(){
-        ArrayList<Integer> retorno=new ArrayList<>();
-        //Generamos 5 aleatorios entre 1 y 10 (incluido) y los guardamos en el ArrayList
-        for(int i=0;i<5;i++){
-            int valor = new Random().nextInt(10) + 1;
-            retorno.add(valor);
+    public static ArrayList<Integer> listaAleatoria(int cuantos){
+        Random gen=new Random();
+        ArrayList<Integer> lista=new ArrayList<>();
+        for (int i = 0; i < cuantos; i++) {
+            lista.add(gen.nextInt(CANTALEATORIOS));
         }
-        return retorno;
+        return lista;
     }
+
 }
