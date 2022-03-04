@@ -12,7 +12,7 @@ import java.util.*;
 public class SerieMultiplos
 {
 
-    public static final int NUM_MULTIPLOS = 10;
+    public static final int NUM_MULTIPLOS = 10;//Constante añadida al proyecto base
     private HashMap<String, ArrayList<Integer>> mapMultiplos;
 
     /**
@@ -30,6 +30,7 @@ public class SerieMultiplos
     public void añadirEntrada(int num) 
     {
         String numStr=String.valueOf(num);
+        //No se indica en el enunciado. Hago un control simple de si el numero ya está en la lista
         if(!mapMultiplos.containsKey(numStr)){
             ArrayList<Integer> multiplos=generarMultiplos(num);
             mapMultiplos.put(numStr,multiplos);
@@ -49,7 +50,7 @@ public class SerieMultiplos
         ArrayList<Integer> multiplos=new ArrayList<>();
         //Generamos NUM_MULTIPLOS multiplos para cada numero
         for (int i = 1; i <= NUM_MULTIPLOS; i++) {
-            multiplos.add(num*i);
+            multiplos.add(num*i);//Se hace autoboxing => Se envuelve el int en un Integer implícitamente
         }
         return multiplos;
     }
@@ -71,11 +72,11 @@ public class SerieMultiplos
      */
     public void escribirMap()
     {
+        //Recuperamos las claves en un Set con la función keySet
         Set<String> claves=mapMultiplos.keySet();
         for (String clave : claves) {
             System.out.print(clave  + ": ");
             escribirValor(mapMultiplos.get(clave));
-            System.out.println();//Añadimos un salto de línea
         }
     }
     
@@ -105,7 +106,21 @@ public class SerieMultiplos
             Map.Entry<String, ArrayList<Integer>> entrada = itEntradas.next();
             String clave=entrada.getKey();
             ArrayList<Integer> multiplos=entrada.getValue();
-            if(multiplos.remove(Integer.valueOf(multi))){//Si le pasamos a remove el int sin envolver, lo entiende como índice, no como objeto
+            //A continuación, dos versiones de la misma función, con diferencias importantes
+            /*
+             remove (int) borra el elemento de la posición recibida
+             Devuelve el elemento borrado, el que estaba en esa posición. Por tanto
+             no se puede usar en un if() tal y como hacemos después.
+             y además NO es lo que necesitamos*/
+
+            //multiplos.remove(multi);
+
+            /*remove(Objeto) borra el objeto y devuelve true (si estaba en la lista) o false
+            Borra SÓLO la primera ocurrencia
+            Es válido porque sabemos que una lista de múltiplos no habrá repetidos
+            Si pensáramos que pudiese haber repetidos, podríamos hacerlo con un while en lugar de un if
+            */
+            if(multiplos.remove(Integer.valueOf(multi))){
                 borrados++;
             }
         }
