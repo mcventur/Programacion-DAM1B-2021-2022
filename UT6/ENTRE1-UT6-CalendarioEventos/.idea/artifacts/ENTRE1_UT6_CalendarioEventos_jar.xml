@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ENTRE1-UT6-CalendarioEventos:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ENTRE1_UT6_CalendarioEventos_jar</output-path>
+    <root id="archive" name="ENTRE1-UT6-CalendarioEventos.jar">
+      <element id="module-output" name="ENTRE1-UT6-CalendarioEventos" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AD 6.10 Gestor romanos:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AD_6_10_Gestor_romanos_jar</output-path>
+    <root id="archive" name="romanos.jar">
+      <element id="module-output" name="AD 6.10 Gestor romanos" />
+    </root>
+  </artifact>
+</component>
