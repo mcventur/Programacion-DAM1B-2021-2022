@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="REPA Alumnos y cursillos:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/REPA_Alumnos_y_cursillos_jar</output-path>
+    <root id="archive" name="REPA Alumnos y cursillos.jar">
+      <element id="module-output" name="REPA Alumnos y cursillos" />
+    </root>
+  </artifact>
+</component>
