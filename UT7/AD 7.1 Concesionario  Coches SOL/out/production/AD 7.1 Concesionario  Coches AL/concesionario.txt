@@ -1,0 +1,9 @@
+T:Jesus:c100:blanco:30:30:5
+D:Isabel:Lotus:azul
+T:Jesus:c100:blanco:30:30:5
+T:Manuel:peugeot:gris:10:10:6
+E:Luisa:seat leon:naranja:0:0
+T:Jesus:c100:blanco:30:30:5
+T:Juan:citroen cx:negro:30:30:5
+E:Ana:ax:verde:3:3
+D:Luis:bmw:blanco

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AD 7.1 Concesionario  Coches AL:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AD_7_1_Concesionario__Coches_AL_jar</output-path>
+    <root id="archive" name="concesionario.jar">
+      <element id="module-output" name="AD 7.1 Concesionario  Coches AL" />
+    </root>
+  </artifact>
+</component>
