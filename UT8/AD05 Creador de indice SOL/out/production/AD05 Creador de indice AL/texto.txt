@@ -1,0 +1,6 @@
+un  tigre
+  este es un ejemplo
+  con un tigre
+dos   tigres
+  tres tigres
+   que estaban en un pajar

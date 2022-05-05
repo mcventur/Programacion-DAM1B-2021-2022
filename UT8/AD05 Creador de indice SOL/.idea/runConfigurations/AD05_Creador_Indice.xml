@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AD05 Creador Indice" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ut8.indice.interfaz.GuiCreadorIndice" />
+    <module name="AD05 Creador de indice AL" />
+    <option name="VM_PARAMETERS" value="--module-path  ${PATH_TO_FX}  --add-modules=javafx.controls,javafx.fxml" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
